@@ -167,7 +167,7 @@ SSH into the control node and follow the steps below:
 
 Update the Ansible configuration file /etc/ansible/ansible.cfg and set the remote_user parameter to the admin user of the web servers.
 
-###Running the Playbooks
+### Running the Playbooks
 
 1.Start an ssh session with the Jump Box 
  ```
