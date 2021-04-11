@@ -193,4 +193,4 @@ Update the Ansible configuration file /etc/ansible/ansible.cfg and set the remot
 
  - After running the playbooks and observing no errors in the output, navigate to Kibana to check that the installation worked as expected by viewing Filebeat and Metricbeat data and reports in the Kibana Dashboard
 
- - Kibana can be accessed at http://<elk-server-ip>:5601/app/kibana
+ - Kibana can be accessed at http://[elk-server-ip]:5601/app/kibana
