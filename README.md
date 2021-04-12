@@ -29,9 +29,9 @@ The main purpose of this network is to expose a load-balanced and monitored inst
 Load balancing ensures that the application will be highly responsive, in addition to restricting incoming traffic to the network.
 
 Additionally, load balancers:
- -Distribute client requests or network load efficiently across multiple servers
- -Ensure high availability and reliability by sending requests only to servers that are online
- -Provide the flexibility to add or subtract servers as demand dictates
+ - Distribute client requests or network load efficiently across multiple servers
+ - Ensure high availability and reliability by sending requests only to servers that are online
+ - Provide the flexibility to add or subtract servers as demand dictates
 
 A jump box is a secure computer that all admins first connect to before launching any administrative task or use as an origination point to connect to other servers or untrusted environments. The purpose of having a jump box is to reduce the attack surface of your network. The majority of your admin work is performed from a highly secured computer that is configured in a way that makes it less likely to be exploited and is restricted in access. The primary benefits of "provisioners" are that they:
 a.) Drastically reduce the potential for human error and b.) Make it easy to configure potentially thousands of identical machines all at once.
