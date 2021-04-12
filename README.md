@@ -34,6 +34,7 @@ Additionally, load balancers:
  - Provide the flexibility to add or subtract servers as demand dictates
 
 A jump box is a secure computer that all admins first connect to before launching any administrative task or use as an origination point to connect to other servers or untrusted environments. The purpose of having a jump box is to reduce the attack surface of your network. The majority of your admin work is performed from a highly secured computer that is configured in a way that makes it less likely to be exploited and is restricted in access. The primary benefits of "provisioners" are that they:
+
 a.) Drastically reduce the potential for human error and b.) Make it easy to configure potentially thousands of identical machines all at once.
 
 Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the files and system metrics.
